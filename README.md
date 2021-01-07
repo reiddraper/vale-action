@@ -19,10 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
 
     - name: Vale
-      uses: errata-ai/vale-action@v1.3.0
+      uses: errata-ai/vale-action@57aba050b4b222e6a79b8b95f59572e0ba2e2219
       with:
         # Optional
         styles: |
